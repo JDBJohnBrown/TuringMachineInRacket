@@ -20,7 +20,10 @@ Run. (All controls are described in Master.rkt)
      By default, Master.rkt includes loading "code.states" from the user desktop
      It then opens up the screen for editing the state machine.
      Once this is closed, it will open the simulator.
-     
+## Include Turing Machine
+I have included a basic turing machine as an example with this code.
+It is contained in the file code.states.
+This machines purpose is to find strings within the language {0,1} who are palindromes with an equal number of 0s and 1s.
 ## Notes
 * The Master file contains extensive notes on the use and operation of this application.
 * This program is not capable of comprehending Multi-tape Turing Machines.
